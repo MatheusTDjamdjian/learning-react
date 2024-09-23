@@ -5,8 +5,11 @@ function List () {
         <> { /* Fragments */ }
         <h1>Minha lista</h1>
             <ul>
-                <Item marca="Ferrari"/>
-                <Item marca="Ford"/>
+                <Item marca="Ferrari" ano_lancamento={1985}/>
+                <Item marca="Ford" ano_lancamento={1964}/>
+                <Item marca="Dodge" ano_lancamento={1947}/>
+                <Item marca="Nissan" ano_lancamento={1992}/>
+                <Item/>
             </ul>
         </>
     )
