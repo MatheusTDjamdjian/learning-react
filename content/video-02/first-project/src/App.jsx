@@ -5,6 +5,7 @@ import './App.css'
 import HelloWorld from './components/HelloWorld' 
 import SayMyName from './components/SayMyName'
 import Pessoa from './components/Pessoa'
+import List from './components/list'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -38,6 +39,7 @@ function App() {
         </p>
       </div>
       <HelloWorld/>
+      <List/>
     </>
   )
 }
