@@ -6,6 +6,7 @@ import HelloWorld from './components/HelloWorld'
 import SayMyName from './components/SayMyName'
 import Pessoa from './components/Pessoa'
 import List from './components/list'
+import Evento from './components/Evento'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -38,8 +39,13 @@ function App() {
           Alterando o JSX
         </p>
       </div>
-      <HelloWorld/>
       <List/>
+      <HelloWorld/>
+      <div>
+        <h1>Testando Eventos</h1>
+        <Evento numero="1"/>
+        <Evento numero="2"/>
+      </div>
     </>
   )
 }

@@ -9,7 +9,6 @@ function List () {
                 <Item marca="Ford" ano_lancamento={1964}/>
                 <Item marca="Dodge" ano_lancamento={1947}/>
                 <Item marca="Nissan" ano_lancamento={1992}/>
-                <Item/>
             </ul>
         </>
     )
