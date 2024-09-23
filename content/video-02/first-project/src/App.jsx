@@ -7,6 +7,7 @@ import SayMyName from './components/SayMyName'
 import Pessoa from './components/Pessoa'
 import List from './components/list'
 import Evento from './components/Evento'
+import Form from './components/Form'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -46,6 +47,7 @@ function App() {
         <Evento numero="1"/>
         <Evento numero="2"/>
       </div>
+      <Form/>
     </>
   )
 }
