@@ -21,6 +21,7 @@ function App() {
     <>
       <h1>My firts project in React</h1>
       <p>Olá, {newName}</p>
+      <h3>Testando CSS</h3>
       <div>
         <p>Props:</p> {/* Teste de Props */}
         < SayMyName nome ="Matheus" />
