@@ -8,6 +8,7 @@ import Pessoa from './components/Pessoa'
 import List from './components/list'
 import Evento from './components/Evento'
 import Form from './components/Form'
+import Condicional from './components/Condicional'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -47,6 +48,10 @@ function App() {
         <Evento/>
       </div>
       <Form/>
+      <div>
+        <h1>Renderização condicional</h1>
+        <Condicional/>
+      </div>
     </>
   )
 }
