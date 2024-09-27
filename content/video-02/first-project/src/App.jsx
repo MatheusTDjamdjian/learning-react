@@ -9,6 +9,7 @@ import List from './components/list'
 import Evento from './components/Evento'
 import Form from './components/Form'
 import Condicional from './components/Condicional'
+import ListRender from './components/ListRender'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,8 @@ function App() {
   const name = 'Matheus'
 
   const newName = name.toUpperCase()
+
+  const meusItens = ['React', 'Angular', 'JavaScript']
 
   function sum(a, b) {
     return a + b
@@ -51,6 +54,11 @@ function App() {
       <div>
         <h1>Renderização condicional</h1>
         <Condicional/>
+      </div>
+      <div>
+        <h1>Renderização de listas</h1>
+        <ListRender itens={meusItens}/>
+        <ListRender itens={[]}/>
       </div>
     </>
   )
