@@ -10,9 +10,13 @@ import Evento from './components/Evento'
 import Form from './components/Form'
 import Condicional from './components/Condicional'
 import ListRender from './components/ListRender'
+import SeuNome from './components/SeuNome'
+import Saudacao from './components/saudacao'
 
 function App() {
   const [count, setCount] = useState(0)
+
+  const [nome, setNome] = useState()
 
   const name = 'Matheus'
 
@@ -59,6 +63,11 @@ function App() {
         <h1>Renderização de listas</h1>
         <ListRender itens={meusItens}/>
         <ListRender itens={[]}/>
+      </div>
+      <div>
+        <h1>State Lift</h1>
+        <SeuNome setNome={setNome}/>
+        <Saudacao nome={nome}/>
       </div>
     </>
   )
