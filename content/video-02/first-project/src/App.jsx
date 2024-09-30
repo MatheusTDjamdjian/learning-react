@@ -12,6 +12,7 @@ import Condicional from './components/Condicional'
 import ListRender from './components/ListRender'
 import SeuNome from './components/SeuNome'
 import Saudacao from './components/saudacao'
+import Icons from './components/Icons'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -68,6 +69,10 @@ function App() {
         <h1>State Lift</h1>
         <SeuNome setNome={setNome}/>
         <Saudacao nome={nome}/>
+      </div>
+      <div>
+        <h1>| Icons |</h1>
+        <Icons/>
       </div>
     </>
   )
